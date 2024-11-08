@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Blackboard";
+  src: url("font/CfBlackboardPersonalRegular-AKPg.ttf");
+}
+
+/* need to find a better way for this cause I don't want this setup on every page
+I just want it for the hero page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monaco, sans-serif;
+  background-color: #fff6ec;
+}
+
+h1 {
+  word-spacing: -7px;
+}
+
+/* --------------------------------------------------------------------------------
+  Hero Page
+-------------------------------------------------------------------------------- */
+
+/* size hero to see everything on one page */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Header */
+.logo img {
+  width: 80px;
+}
+
+.title-container {
+  position: relative;
+  padding: 10px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.stripe {
+  position: absolute;
+  background-color: #e3b261;
+  height: 2px;
+  width: 35%;
+}
+
+.stripe-left {
+  top: 0;
+  left: 0;
+  transform: translateY(-100%); /* Move stripe above title */
+}
+
+.stripe-right {
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%); /* Move stripe below title */
+}
+
+/* blackboard recipes list */
+.blackboard {
+  background-image: url("images/blackboard.svg");
+  width: 100%;
+  height: 100vh; /* need to be check */
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-text {
+  font-family: "Blackboard";
+  font-size: 32px;
+}
+
+.board-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.board-text li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------------------------------------
+  Recipe Pages
+-------------------------------------------------------------------------------- */
+
