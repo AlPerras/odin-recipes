@@ -1,0 +1,27 @@
+body {
+  font-family: Monaco, sans-serif;
+  background-color: #fff6ec;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.arrow img {
+  position: absolute;
+  width: 60px;
+  rotate: 180deg;
+  opacity: 0.85;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.recipe-img img {
+  width: 310px;
+  height: auto;
+}

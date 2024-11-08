@@ -3,8 +3,6 @@
   src: url("font/CfBlackboardPersonalRegular-AKPg.ttf");
 }
 
-/* need to find a better way for this cause I don't want this setup on every page
-I just want it for the hero page */
 * {
   margin: 0;
   padding: 0;
@@ -19,10 +17,6 @@ body {
 h1 {
   word-spacing: -7px;
 }
-
-/* --------------------------------------------------------------------------------
-  Hero Page
--------------------------------------------------------------------------------- */
 
 /* size hero to see everything on one page */
 .hero {
@@ -81,6 +75,7 @@ h1 {
 .board-text {
   font-family: "Blackboard";
   font-size: 32px;
+  list-style-type: none;
 }
 
 .board-text a {
@@ -89,11 +84,5 @@ h1 {
 }
 
 .board-text li {
-  list-style-type: none;
   margin-bottom: 10px;
 }
-
-/* --------------------------------------------------------------------------------
-  Recipe Pages
--------------------------------------------------------------------------------- */
-
